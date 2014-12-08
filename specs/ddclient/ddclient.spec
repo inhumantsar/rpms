@@ -9,8 +9,8 @@ License: GPL
 Group: Applications/Internet
 URL: http://ddclient.sourceforge.net/
 
-Source: http://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-${version}/ddclient-${version}.tar.gz
-BuildRoot: .
+Source: http://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-%{version}/ddclient-%{version}.tar.gz
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildArch: noarch
 Requires: perl(IO::Socket::SSL)
