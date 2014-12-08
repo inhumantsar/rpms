@@ -3,13 +3,13 @@
 
 Summary: Updates dynamic DNS entries
 Name: ddclient
-Version: 3.7.3
-Release: 2%{?dist}
+Version: 3.8.2
+Release: 1-%{?dist}
 License: GPL
 Group: Applications/Internet
 URL: http://ddclient.sourceforge.net/
 
-Source: http://dl.sf.net/ddclient/ddclient-%{version}.tar.bz2
+Source: http://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-${version}/ddclient-${version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildArch: noarch
