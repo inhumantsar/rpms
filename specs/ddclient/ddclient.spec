@@ -67,6 +67,10 @@ fi
 %dir %{_localstatedir}/cache/ddclient
 
 %changelog
+* Thu Dec 11 2014 Shaun Martin <shaun@samsite.ca> - 3.8.2-1
+- Updated to release 3.8.2
+- Updated source download URL
+
 * Fri Jul 25 2008 Jim <quien-sabe@metaorg.com - 3.7.3-2
 - Added step to create new required cache directory
 
